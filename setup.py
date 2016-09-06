@@ -33,7 +33,7 @@ setup(
         'resource/*.png', 'resource/*.svg']},
     entry_points=get_entry_points(),
     install_requires=[
-        'IPython>=1.0',
+        'IPython>=0.10',
         'PyTango>=7.2'],
 
     license='LGPL',
