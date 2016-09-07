@@ -26,5 +26,6 @@ else:
     from .common import get_python_version, get_ipython_version
     from .common import get_pytango_version
     from .install import install
-    from .itango import load_ipython_extension, unload_ipython_extension
+    from .itango import (load_ipython_extension, unload_ipython_extension,
+        init_ipython)
     from .itango import load_config, run, run_qt
